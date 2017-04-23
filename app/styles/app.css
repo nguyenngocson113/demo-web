@@ -27,3 +27,39 @@ body {
 .un-select {
   user-select: none;
 }
+
+.MyComponent {
+  background-color: white;
+  height: 100px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  margin: auto;
+
+  &-title {
+    color: black;
+    text-align: left;
+    weight: bold;
+  }
+  &-body {
+    padding: 0;
+    margin-top: 30px;
+    text-align: left;
+    left: 20%;
+    right: 20%;
+  }
+  &-img {
+    display: flex;
+    background-color: rgb(41, 128, 185);
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+  }
+  &-field{
+    background-color: black;
+    color: white;
+    display: inline;
+    }
+}

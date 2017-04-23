@@ -22,6 +22,7 @@ module.exports = {
     "import/resolver": { "node": { "paths": [ path.resolve(__dirname, 'app')  ] } }
   },
   "rules": {
+    "linebreak-style": 0,
     "react/jsx-curly-spacing": [2, "always"],
     "react/jsx-closing-bracket-location": [2, "after-props" ],
     "react/sort-comp": 0,
@@ -57,6 +58,7 @@ module.exports = {
     "class-methods-use-this": 0,
     "no-param-reassign": 0,
     "global-require": 0,
-    "no-plusplus": 0
+    "no-plusplus": 0,
+    'react/prefer-stateless-function': 0
   }
 }
